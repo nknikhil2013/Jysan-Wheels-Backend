@@ -6,7 +6,7 @@ const bookingsRoute = require('./bookingsRoute'); // Import the new route
 const userRoute = require('./routes/userRoute');
 const adminRoute=require('./routes/adminRoute');
 const app = express();
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 // Middleware to parse JSON
 app.use(express.json());
